@@ -12,13 +12,13 @@ avaliarProduto.addEventListener('click', function(e) {
     //const avaliarProduto = document.getElementById('avaliarProduto')
    // const pv = document.getElementById('pv')
 
-    if(validToProduct <= '12/12/2024' && validToProduct >= '12/12/2022') {
+    if(validToProduct <= '2024' && validToProduct >= '2022') {
 
         const pve = document.getElementById('pve')
         const produto = document.createElement('li')
         produto.Id = 'produto-' + numberToProduct
         //produtosValidos.push({nameToProduct,numberToProduct,validToProduct})
-        produto.innerText = 'nome do produto: ' + nameToProduct + '/ Código do produto: ' +  numberToProduct + 
+        produto.innerText = 'nome do produto: ' + nameToProduct + '/ Código do produto: ' +  numberToProduct  
         
 
         pve.append(produto)
@@ -30,7 +30,7 @@ avaliarProduto.addEventListener('click', function(e) {
         const pv = document.getElementById('pv')
         const produto = document.createElement('li')
         produto.Id = 'produto-' + numberToProduct
-        produto.innerText = 'Nome do produto: ' + nameToProduct + ' / Código do produto: ' + numberToProduct + 
+        produto.innerText = 'Nome do produto: ' + nameToProduct + ' / Código do produto: ' + numberToProduct 
         
         //produtosVencidos.push({nameToProduct,numberToProduct,validToProduct})
         pv.append(produto)
